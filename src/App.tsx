@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './components/generate.css';
+import Genepaswrd from './components/genepasswrd';
+import Navbar from './components/nav';
+import Load from './components/load';
+import { useState,useEffect } from 'react';
 
 function App() {
+  const[loa,setLoa]=useState<boolean>(true)
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoa(false)
+    },6000)
+      },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='App'>
+     {loa==true? <Load/>
+     :
+     <div>
+      <Navbar/>
+     <Genepaswrd/>
+     </div>
+}</div>
   );
 }
 
