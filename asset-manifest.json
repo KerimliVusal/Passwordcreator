@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Passwordcreator/static/css/main.8ec0bd59.css",
+    "main.css": "/Passwordcreator/static/css/main.c720873a.css",
     "main.js": "/Passwordcreator/static/js/main.f99f9427.js",
     "static/js/787.e09e6b42.chunk.js": "/Passwordcreator/static/js/787.e09e6b42.chunk.js",
     "static/media/google-login.gif": "/Passwordcreator/static/media/google-login.c8eb4892333d311fcc88.gif",
     "static/media/logo4.gif": "/Passwordcreator/static/media/logo4.f55ee351ddc85bcf484d.gif",
     "index.html": "/Passwordcreator/index.html",
-    "main.8ec0bd59.css.map": "/Passwordcreator/static/css/main.8ec0bd59.css.map",
+    "main.c720873a.css.map": "/Passwordcreator/static/css/main.c720873a.css.map",
     "main.f99f9427.js.map": "/Passwordcreator/static/js/main.f99f9427.js.map",
     "787.e09e6b42.chunk.js.map": "/Passwordcreator/static/js/787.e09e6b42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec0bd59.css",
+    "static/css/main.c720873a.css",
     "static/js/main.f99f9427.js"
   ]
 }
